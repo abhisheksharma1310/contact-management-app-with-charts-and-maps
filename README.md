@@ -5,6 +5,8 @@ This is a contact management app with charts and maps built using ReactJS, TypeS
 
 The app allows you to manage contacts, view charts showing COVID-19 cases fluctuations, and visualize COVID-19 data on a world map.
 
+<a href="https://glittery-kringle-992617.netlify.app/">Click here to view a live demo</a>
+
 ## Features
 
 - Add, view, edit, and delete contacts
@@ -25,7 +27,7 @@ The app allows you to manage contacts, view charts showing COVID-19 cases fluctu
 
    ```bash
    git clone https://github.com/abhisheksharma1310/contact-management-app-with-charts-and-maps
-   cd contact-management-app
+   cd contact-management-app-with-charts-and-maps
    ```
 
 2. Install dependencies:
@@ -49,14 +51,13 @@ The app allows you to manage contacts, view charts showing COVID-19 cases fluctu
 3. Navigate to the Dashboard page to view the line graph and the map.
 
 ### APIs Used
-
-- World-wide data of cases: https://disease.sh/v3/covid-19/all
+- Worldwide data of cases: https://disease.sh/v3/covid-19/all
 - Country Specific data of cases: https://disease.sh/v3/covid-19/countries
 - Graph data for cases with date: https://disease.sh/v3/covid-19/historical/all?lastdays=all
 
 ### Deployment
 
-This project is deployed on netlify.
+This project is deployed on Netlify. <a href="https://glittery-kringle-992617.netlify.app/">Click here to view a live demo</a>.
 
 ### Technologies Used
 
