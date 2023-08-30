@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
-import { selectContacts } from "../fearures/contact";
+import { selectContacts } from "../features/contact";
 import { useEffect, useState } from "react";
 
 const ContactView = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { selectContacts } from "../fearures/contact";
+import { selectContacts } from "../features/contact";
 import ContactList from "../components/ContactList";
 
 const ContactsPage: React.FC = () => {

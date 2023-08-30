@@ -6,7 +6,7 @@ import {
   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
   import { useNavigate } from "react-router-dom";
   import { useDispatch } from "react-redux";
-  import { deleteContact } from "../fearures/contact";
+  import { deleteContact } from "../features/contact";
   
 type propType = {
     id: string
@@ -19,7 +19,7 @@ type propType = {
     //hadle contact delete
     const handleDelete = () => {
       // eslint-disable-next-line no-restricted-globals
-      const deleteUser = confirm("Are you sure to delete this user?");
+      const deleteUser = confirm("Are you sure to delete this contact?");
       if(deleteUser){
         dispatch(deleteContact(id))
       }

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useLocation, useParams } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { selectContacts } from "../fearures/contact";
-import { addContact, editContact } from "../fearures/contact";
+import { selectContacts } from "../features/contact";
+import { addContact, editContact } from "../features/contact";
 
 const ContactForm = () => {
   const navigate = useNavigate();
