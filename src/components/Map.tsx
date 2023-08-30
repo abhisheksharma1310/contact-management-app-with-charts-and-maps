@@ -1,10 +1,6 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import { LatLngTuple } from "leaflet";
 import { useCountryData } from "../api";
-
-const defaultLatLng: LatLngTuple = [0, 0];
-const zoom: number = 2;
 
 //define interface for CountryData
 interface CountryData {

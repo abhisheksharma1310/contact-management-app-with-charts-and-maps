@@ -23,9 +23,9 @@ const ContactForm = () => {
     id: new Date().getTime().toString(),
   });
 
-  //state for form submission success and fail
+  //state for form submission success 
   const [success, setSuccess] = useState(false);
-  const [fail, setFail] = useState(false);
+  
 
   //find contact detail by its id
   useEffect(() => {
@@ -149,7 +149,6 @@ const ContactForm = () => {
           <h2>You are redirecting to home page...</h2>
         </>
       )}
-      {fail && <h2>Process fail.</h2>}
     </div>
   );
 };
