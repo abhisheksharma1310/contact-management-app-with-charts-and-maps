@@ -21,10 +21,10 @@ function App() {
         <Router>
           <Header />
           <div className="grid lg:grid-cols-5">
-            <aside className="lg:col-span-1">
+            <aside className="lg:col-span-1 lg:border-r border-b ">
               <SideBar />
             </aside>
-            <main className="lg:col-span-4">
+            <main className="lg:col-span-4 mt-2">
               <Routes>
                 <Route path="/" element={<ContactsPage />} />
                 <Route path="/contact/create" element={<ContactForm />} />
